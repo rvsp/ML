@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 23 18:41:39 2019
+Created on Fri Sep 6 1:03:20 2019
 
 @author: venkat
 """
@@ -13,7 +13,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import cross_val_score
 
-data = pd.read_csv("https://raw.githubusercontent.com/trainervenkat/MDUSIT/master/datasets/iris_data.csv")
+data = pd.read_csv("https://raw.githubusercontent.com/trainervenkat/sahyadri-college/master/datasets/iris_data.csv")
 #data = datasets.load_iris()
 print(data.head())
 features = data[["SepalLength","SepalWidth","PetalLength","PetalWidth"]]
